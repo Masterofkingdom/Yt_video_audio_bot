@@ -6,7 +6,7 @@ async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
         [InlineKeyboardButton("⚡ Our Channel ⚡", url="https://t.me/kingdom_family_chanel"),
-         InlineKeyboardButton("⚡ Our Group ⚡", url="https://t.me/kingdom_family")]
+         InlineKeyboardButton("⚡ Our Group ⚡", url="https://t.me/kingdom_family")],
         [InlineKeyboardButton("⚡ Share Channel ⚡", url="https://telegram.me/share/url?url=t.me/kingdom_family_chanel")],
         [InlineKeyboardButton("⚡ Share Group ⚡", url="https://telegram.me/share/url?url=t.me/kingdom_family")],
         [InlineKeyboardButton("⚡ kathasayura ⚡", url="https://t.me/kathasayura"),
