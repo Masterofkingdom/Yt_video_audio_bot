@@ -12,6 +12,6 @@ async def start(client, message):
         [InlineKeyboardButton("⚡ kathasayura ⚡", url="https://t.me/kathasayura"),
          InlineKeyboardButton("⚡ stickers ⚡", url="https://t.me/kingdom_family_sticker")],
     ])
-    welcomed = f"Hi 👋 <b>{message.from_user.first_name}</b>\nThis is **kingdo family product** This bot can download You tube video and audio \nhelp For more \n\n\n 𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 :- @kingdom_family_chanel"
+    welcomed = f"Hi 👋 <b>{message.from_user.first_name}</b>\nThis is **kingdom family product** This bot can download You tube video and audio \n\n/help For more \n\n\n 𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 :- @kingdom_family_chanel"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
